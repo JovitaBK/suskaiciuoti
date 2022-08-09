@@ -9,3 +9,10 @@ def suskaiciuoti_skirtuma(sk1, sk2, sk3, sk4):
     print(skirtumo_rezultatas)
 
 suskaiciuoti_skirtuma(5, 3,1, -1)
+
+def atspausdinti_atbulai(zodis):
+    return zodis[::-1]
+
+
+mano_zodis = atspausdinti_atbulai("zodis")
+print(mano_zodis)
